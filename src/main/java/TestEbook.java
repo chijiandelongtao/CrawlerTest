@@ -13,7 +13,7 @@ public class TestEbook implements PageProcessor {
             .me()
             .setSleepTime(3000)
 //        .addCookie()
-            .addHeader("authorization", "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ODI1ODAwMSwic3NvX2lkIjoyMDY2NjM1LCJsb2dpbiI6InpodXFpdWh1aSIsIm5hbWUiOiLmnLHnp4vovokiLCJleHBpcmVzX2F0IjoxNDg5NzQ5MDAyLCJpYXQiOjE0ODg1Mzk0MDJ9.tHVE8DXVn7fCnZDxoSxSMUkT5kt7ujtgn7oG0K3Ec1M")
+            .addHeader("authorization", "Bearer eyJ0eXAiOiJKbGciOiJIUzI1NiJ9.eODAwMSwic3NvX2lkIjoyMDY2NjM1LCJsb2dpbiI6InpoWh1aSIsIm5hbWUiOiLmnLHnp4vovokiLCJleHBpcmVzX2F0IjoxNDg5NzQ5MDAyLCJpYXQiOjE0ODg1Mzk0M7fCnZDxoSxSMUkT5kt7ujtgn7oG0K3Ec1M")
             .addHeader("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36");
 
     public void process(Page page) {
